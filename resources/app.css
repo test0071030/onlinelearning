@@ -1,0 +1,260 @@
+@media only screen and (min-width:980px){
+    body{
+        margin:0;
+        overflow-x:hidden;
+        font-family: 'Noto Sans TC';
+    }
+    .resources_banner{
+        position:relative;
+        background:url("../material/banner.jpg");
+        display: inline-block;
+        width:100vw;
+        height:6.25vw;
+        left:0;
+        top:0;
+    }
+
+    #resources_banner_logo{
+        position:relative;
+        background:url("../material/logo1.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:24.18vw;
+        height:5vw;
+        left: 3vw;
+        top: 0.625vw;
+    }
+
+    #resources_banner_title{
+        position:relative;
+        display: inline-block;
+        left:5vw;
+        top: -1vw;
+        font-size: 3vw;
+    }
+
+    #resources_middle{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        min-height: 42.19vw;
+    }
+
+    #middle_photo{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:60.42vw;
+        height:42.19vw;
+        background:url("../material/resources/5_1_middle_upperphoto.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #middle_right{
+        position:relative;
+        display: inline-block;
+        width:39vw;
+        vertical-align: top;
+    }
+
+    #right_title{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:20vw;
+        vertical-align: top;
+        margin-left: 10vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .right_textpart{
+        position:relative;
+        display: inline-block;
+        width:38vw;
+        vertical-align: top;
+    }
+
+    .textpart_sign{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        width: 4vw;
+    }
+
+    .textpart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 1vw;
+        margin-top: 2vw;
+        font-size: 2vw;
+    }
+
+    .resources_footer{
+        position:relative;
+        background-color:#f6f6f6;
+        display: inline-block;
+        width:100vw;
+        height:7.8125vw;
+    }
+
+    #resources_footer_logo{
+        position:relative;
+        background:url("../material/logo2.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:20vw;
+        height:3.97vw;
+        left:5vw;
+        top: 0.3vw;
+    }
+
+    #resources_footer_signature{
+        position:relative;
+        display: inline-block;
+        font-size: 1.1vw;
+        left:7vw;
+        top:1vw;
+    }
+
+
+}
+
+
+@media only screen and (max-width:979px){
+    body{
+        margin:0;
+        overflow-x:hidden;
+        font-family: 'Noto Sans TC';
+    }
+    .resources_banner{
+        background:url("../material/banner.jpg");
+        display: inline-block;
+        position: relative;
+        top:0;
+        left:0;
+        height:10vw;
+        width:100vw;
+        z-index: 2;
+    }
+
+    #resources_banner_logo{
+        position:relative;
+        background:url("../material/logo2.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        top:2vw;
+        left:3vw;
+        height:6vw;
+        width:27.48vw;
+    }
+
+    #resources_banner_title{
+        position:relative;
+        display: inline-block;
+        left:5vw;
+        top: 0.75vw;
+        font-size: 5vw;
+    }
+    
+    #resources_middle{
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+        min-height: 42.19vw;
+    }
+
+    #middle_photo{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:100vw;
+        height:61.11vw;
+        background:url("../material/resources/RWD_5_1_middle_upperphoto.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top:10vw;
+    }
+
+    #middle_right{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        vertical-align: top;
+    }
+
+    #resources_middle > #middle_right{
+        order:1;
+    } 
+
+    #resources_middle > #middle_photo{
+        order:2;
+    } 
+
+    #right_title{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:31.11vw;
+        vertical-align: top;
+        margin-left: 4vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .right_textpart{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        vertical-align: top;
+    }
+
+    .textpart_sign{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 21vw;
+        margin-top: 2vw;
+        width: 8vw;
+    }
+
+    .textpart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 3vw;
+        margin-top: 2vw;
+        font-size: 4vw;
+    }
+
+    .resources_footer{
+        position:relative;
+        background-color:#f6f6f6;
+        display: inline-block;
+        width:100vw;
+    }
+
+    #resources_footer_logo{
+        display: none;
+    }
+
+    #resources_footer_signature{
+        position:relative;
+        display: inline-block;
+        font-size: 4vw;
+        left: 3vw;
+        top: 0vw
+    }
+}
