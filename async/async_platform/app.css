@@ -4,9 +4,9 @@
         overflow-x:hidden;
         font-family: 'Noto Sans TC';
     }
-    .sync_banner{
+    .sync_platform_banner{
         position:relative;
-        background:url("../material/banner.jpg");
+        background:url("../../material/banner.jpg");
         display: inline-block;
         width:100vw;
         height:6.25vw;
@@ -14,9 +14,9 @@
         top:0;
     }
 
-    #sync_banner_logo{
+    #sync_platform_banner_logo{
         position:relative;
-        background:url("../material/logo1.png");
+        background:url("../../material/logo1.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         display: inline-block;
@@ -26,7 +26,7 @@
         top: 0.625vw;
     }
 
-    #sync_banner_title{
+    #sync_platform_banner_title{
         position:relative;
         display: inline-block;
         left:5vw;
@@ -34,72 +34,73 @@
         font-size: 3vw;
     }
 
-    #sync_middle{
+    #sync_platform_middle{
         position:relative;
         display: inline-block;
         width:100vw;
         min-height: 42.19vw;
     }
 
-    #middle_photo{
+    .middle_titlepart{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        width:97vw;
+        left:3vw;
+        top: 3vw;
+    }
+
+    #middle_titlepart_link{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #middle_titlepart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 6vw;
+        font-size: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    #middle_titlepart_photo{
         position:relative;
         display: inline-block;
         left:0vw;
         top: 0vw;
-        width:60.42vw;
-        height:42.19vw;
-        background:url("../material/sync/2_1_middle_upperphoto.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-
-    #middle_right{
-        position:relative;
-        display: inline-block;
-        width:39vw;
+        width:13.91vw;
         vertical-align: top;
     }
 
-    #right_title{
+    #middle_option{
         position:relative;
         display: inline-block;
-        left:0vw;
-        top: 0vw;
-        width:20vw;
-        vertical-align: top;
-        margin-left: 10vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
-    }
-
-    .right_textpart{
-        position:relative;
-        display: inline-block;
-        width:38vw;
+        width:100vw;
+        margin-top: 5vw;
         vertical-align: top;
     }
 
-    .textpart_sign{
+    .option_link{
         position:relative;
         display: inline-block;
+        width:22.19vw;
+        margin-left: 1.5vw;
+        margin-right: 0.5vw;
         vertical-align: top;
-        margin-left: 5vw;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        width: 4vw;
     }
 
-    .textpart_text{
+    .option_sign{
         position:relative;
         display: inline-block;
+        width:22.19vw;
         vertical-align: top;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        font-size: 2vw;
     }
 
-    .sync_footer{
+
+
+    .sync_platform_footer{
         position:relative;
         background-color:#f6f6f6;
         display: inline-block;
@@ -107,9 +108,9 @@
         height:7.8125vw;
     }
 
-    #sync_footer_logo{
+    #sync_platform_footer_logo{
         position:relative;
-        background:url("../material/logo2.png");
+        background:url("../../material/logo2.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         display: inline-block;
@@ -119,7 +120,7 @@
         top: 0.3vw;
     }
 
-    #sync_footer_signature{
+    #sync_platform_footer_signature{
         position:relative;
         display: inline-block;
         font-size: 1.1vw;
@@ -137,8 +138,8 @@
         overflow-x:hidden;
         font-family: 'Noto Sans TC';
     }
-    .sync_banner{
-        background:url("../material/banner.jpg");
+    .sync_platform_banner{
+        background:url("../../material/banner.jpg");
         display: inline-block;
         position: relative;
         top:0;
@@ -148,9 +149,9 @@
         z-index: 2;
     }
 
-    #sync_banner_logo{
+    #sync_platform_banner_logo{
         position:relative;
-        background:url("../material/logo2.png");
+        background:url("../../material/logo2.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         display: inline-block;
@@ -160,7 +161,7 @@
         width:27.48vw;
     }
 
-    #sync_banner_title{
+    #sync_platform_banner_title{
         position:relative;
         display: inline-block;
         left:5vw;
@@ -168,91 +169,83 @@
         font-size: 5vw;
     }
     
-    #sync_middle{
+    #sync_platform_middle{
         position:relative;
-        display: flex;
-        flex-direction: column;
+        display: inline-block;
         width:100vw;
         min-height: 42.19vw;
     }
 
-    #middle_photo{
+    .middle_titlepart{
         position:relative;
         display: inline-block;
-        left:0vw;
-        top: 0vw;
-        width:100vw;
-        height:61.11vw;
-        background:url("../material/sync/RWD_2_1_middle_upperphoto.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin-top:10vw;
-    }
-
-    #middle_right{
-        position:relative;
-        display: inline-block;
-        width:100vw;
         vertical-align: top;
+        width:97vw;
     }
 
-    #sync_middle > #middle_right{
-        order:1;
-    } 
+    #middle_titlepart_link{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        left:3vw;
+        top: 3vw;
+    }
 
-    #sync_middle > #middle_photo{
-        order:2;
-    } 
-
-    #right_title{
+    #middle_titlepart_photo{
         position:relative;
         display: inline-block;
         left:0vw;
         top: 0vw;
         width:31.11vw;
         vertical-align: top;
-        margin-left: 4vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
     }
 
-    .right_textpart{
+    #middle_titlepart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 6.5vw;
+        margin-top: 4vw;
+        margin-left: 5vw;
+    }
+
+    #middle_option{
         position:relative;
         display: inline-block;
         width:100vw;
+        margin-top: 1vw;
+        margin-bottom: 10vw;
         vertical-align: top;
     }
 
-    .textpart_sign{
+    .option_link{
         position:relative;
         display: inline-block;
+        width:49vw;
+        margin-top: 7vw;
         vertical-align: top;
-        margin-left: 21vw;
-        margin-top: 2vw;
-        width: 8vw;
     }
 
-    .textpart_text{
+    .option_sign{
         position:relative;
         display: inline-block;
+        width:40vw;
+        margin-left: 5.5vw;
         vertical-align: top;
-        margin-left: 3vw;
-        margin-top: 2vw;
-        font-size: 4vw;
     }
 
-    .sync_footer{
+    .sync_platform_footer{
         position:relative;
         background-color:#f6f6f6;
         display: inline-block;
         width:100vw;
     }
 
-    #sync_footer_logo{
+    #sync_platform_footer_logo{
         display: none;
     }
 
-    #sync_footer_signature{
+    #sync_platform_footer_signature{
         position:relative;
         display: inline-block;
         font-size: 4vw;
