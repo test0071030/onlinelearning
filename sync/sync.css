@@ -1,0 +1,125 @@
+@media only screen and (min-width:980px){
+
+    #middle_photo{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:60.42vw;
+        height:42.19vw;
+        background:url("../material/sync/2_1_middle_upperphoto.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #middle_right{
+        position:relative;
+        display: inline-block;
+        width:39vw;
+        vertical-align: top;
+    }
+
+    #right_title{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:20vw;
+        vertical-align: top;
+        margin-left: 10vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .right_textpart{
+        position:relative;
+        display: inline-block;
+        width:38vw;
+        vertical-align: top;
+    }
+
+    .textpart_sign{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 5vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        width: 4vw;
+    }
+
+    .textpart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 2vw;
+        color:black;
+    }
+
+}
+
+
+@media only screen and (max-width:979px){
+
+    #middle_photo{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:100vw;
+        height:61.11vw;
+        background:url("../material/sync/RWD_2_1_middle_upperphoto.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top:10vw;
+    }
+
+    #middle_right{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        vertical-align: top;
+    }
+
+
+    #right_title{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:31.11vw;
+        vertical-align: top;
+        margin-left: 4vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .right_textpart{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        vertical-align: top;
+    }
+
+    .textpart_sign{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 21vw;
+        margin-top: 2vw;
+        width: 8vw;
+    }
+
+    .textpart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 3vw;
+        margin-top: 2vw;
+        font-size: 4vw;
+        color:black;
+    }
+}

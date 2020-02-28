@@ -1,0 +1,127 @@
+@media only screen and (min-width:980px){
+
+    #homepage_upperphoto{
+        position:relative;
+        background:url("material/homepage/upperphoto.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:100vw;
+        height:27.4vw;
+        left:0;
+    }
+
+    .homepage_middle_option{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        left:0;
+    }
+
+    #homepage_middle_sync{
+        position:relative;
+        background:url("material/homepage/sync.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:24.5vw;
+        height:14.79vw;
+    }
+
+    #homepage_middle_async{
+        position:relative;
+        background:url("material/homepage/async.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:24.5vw;
+        height:14.79vw;
+    }
+
+    #homepage_middle_quiz{
+        position:relative;
+        background:url("material/homepage/quiz.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:24.5vw;
+        height:14.79vw;
+    }
+
+    #homepage_middle_resources{
+        position:relative;
+        background:url("material/homepage/resources.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:24.5vw;
+        height:14.79vw;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:979px){
+
+    #homepage_upperphoto{
+        position:relative;
+        background:url("material/homepage/upperphoto.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:100vw;
+        height:27vw;
+        left:0;
+    }
+
+    .homepage_middle_option{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        left:0;
+        min-height: 120vw;
+    }
+
+    #homepage_middle_sync{
+        position:relative;
+        background:url("material/homepage/RWD_sync.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:100vw;
+        height:21.3vw;
+    }
+
+    #homepage_middle_async{
+        position:relative;
+        background:url("material/homepage/RWD_async.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:100vw;
+        height:21.3vw;
+    }
+
+    #homepage_middle_quiz{
+        position:relative;
+        background:url("material/homepage/RWD_quiz.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:100vw;
+        height:21.3vw;
+    }
+
+    #homepage_middle_resources{
+        position:relative;
+        background:url("material/homepage/RWD_resources.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        width:100vw;
+        height:21.3vw;
+    }
+
+}

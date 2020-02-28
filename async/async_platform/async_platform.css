@@ -1,0 +1,122 @@
+@media only screen and (min-width:980px){
+    .middle_titlepart{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        width:97vw;
+        left:3vw;
+        top: 3vw;
+    }
+
+    #middle_titlepart_link{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #middle_titlepart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 6vw;
+        font-size: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    #middle_titlepart_photo{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:13.91vw;
+        vertical-align: top;
+    }
+
+    #middle_option{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        margin-top: 5vw;
+        vertical-align: top;
+    }
+
+    .option_link{
+        position:relative;
+        display: inline-block;
+        width:22.19vw;
+        margin-left: 1.5vw;
+        margin-right: 0.5vw;
+        vertical-align: top;
+    }
+
+    .option_sign{
+        position:relative;
+        display: inline-block;
+        width:22.19vw;
+        vertical-align: top;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width:979px){
+    .middle_titlepart{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        width:97vw;
+    }
+
+    #middle_titlepart_link{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        left:3vw;
+        top: 3vw;
+    }
+
+    #middle_titlepart_photo{
+        position:relative;
+        display: inline-block;
+        left:0vw;
+        top: 0vw;
+        width:31.11vw;
+        vertical-align: top;
+    }
+
+    #middle_titlepart_text{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 6.5vw;
+        margin-top: 4vw;
+        margin-left: 5vw;
+    }
+
+    #middle_option{
+        position:relative;
+        display: inline-block;
+        width:100vw;
+        margin-top: 1vw;
+        margin-bottom: 10vw;
+        vertical-align: top;
+    }
+
+    .option_link{
+        position:relative;
+        display: inline-block;
+        width:49vw;
+        margin-top: 7vw;
+        vertical-align: top;
+    }
+
+    .option_sign{
+        position:relative;
+        display: inline-block;
+        width:40vw;
+        margin-left: 5.5vw;
+        vertical-align: top;
+    }
+}
