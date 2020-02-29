@@ -72,6 +72,16 @@
         padding-bottom:1.5vw;
     }
 
+    #footer_counter{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        width:13vw;
+        margin-top: 3vw;
+        margin-left: 4vw;
+        text-align: center;
+    }
+
 
 }
 
@@ -150,4 +160,15 @@
         left: 3vw;
         top: 0vw
     }
+
+    #footer_counter{
+        position:relative;
+        display: inline-block;
+        vertical-align: top;
+        width:99vw;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+        text-align: center;
+    }
+
 }
