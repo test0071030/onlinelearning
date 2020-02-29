@@ -1,4 +1,23 @@
 @media only screen and (min-width:980px){
+    #middle_video_background{
+        position:absolute;
+        display: none;
+        width:100vw;
+        height:42.19vw;
+        z-index: 4;
+        background-color: black;
+        opacity:0.5;
+    }
+
+    #video{
+        position:absolute;
+        display: none;
+        width:64vw;
+        height:36vw;
+        margin-left: 18vw;
+        margin-top: 3vw;
+        z-index: 5;
+    }
 
     #middle_photo{
         position:relative;
@@ -58,11 +77,34 @@
         font-size: 2vw;
         color:black;
     }
+    
+    #sync_video{
+        cursor: pointer;
+    }
 
 }
 
 
 @media only screen and (max-width:979px){
+    #middle_video_background{
+        position:absolute;
+        display: none;
+        width:100vw;
+        height:100%;
+        z-index: 4;
+        background-color: black;
+        opacity:0.5;
+    }
+
+    #video{
+        position:absolute;
+        display: none;
+        width: 80vw;
+        height: 45vw;
+        margin-left: 10vw;
+        margin-top: 34vw;
+        z-index: 5;
+    }
 
     #middle_photo{
         position:relative;
@@ -121,5 +163,9 @@
         margin-top: 2vw;
         font-size: 4vw;
         color:black;
+    }
+
+    #sync_video{
+        cursor: pointer;
     }
 }

@@ -1,7 +1,7 @@
 <html>
     <head>
       <meta charset="utf-8" />
-      <title>線上教學資源網-同步教學</title>
+      <title>國立臺南大學線上教學資源網-同步教學-使用平台</title>
       <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="sync_paltform.css"> 
@@ -15,15 +15,20 @@
       
 
       <div id="middle">
+        <div onclick="hide_video()" id="middle_video_background"></div>
+        <video class="video" id="video_1" src="../../material/sync/platform/sync_platform_joinet.mp4" controls controlsList="nodownload"></video>
+        <video class="video" id="video_2" src="../../material/sync/platform/sync_platform_meet.mp4" controls controlsList="nodownload"></video>
+        <video class="video" id="video_3" src="../../material/sync/platform/sync_platform_skype.mp4" controls controlsList="nodownload"></video>
+        <video class="video" id="video_4" src="../../material/sync/platform/sync_platform_zoom.mp4" controls controlsList="nodownload"></video>
         <div class="middle_titlepart">
           <a href="../index.html" id="middle_titlepart_link"><img src="../../material/sync/2_1_sync.png" id="middle_titlepart_photo"></a>
           <div id="middle_titlepart_text">使用平台</div>
         </div>
         <div id="middle_option">
-          <a class="option_link"><img class="option_sign" src="../../material/sync/2_2_joinnet.png" border="0"></a>
-          <a class="option_link"><img class="option_sign" src="../../material/sync/2_2_meet.png" border="0"></a>
-          <a class="option_link"><img class="option_sign" src="../../material/sync/2_2_skype.png" border="0"></a>
-          <a class="option_link"><img class="option_sign" src="../../material/sync/2_2_zoom.png" border="0"></a>
+          <a onclick="show_video_1()" class="option_link"><img class="option_sign" src="../../material/sync/2_2_joinnet.png" border="0"></a>
+          <a onclick="show_video_2()" class="option_link"><img class="option_sign" src="../../material/sync/2_2_meet.png" border="0"></a>
+          <a onclick="show_video_3()" class="option_link"><img class="option_sign" src="../../material/sync/2_2_skype.png" border="0"></a>
+          <a onclick="show_video_4()" class="option_link"><img class="option_sign" src="../../material/sync/2_2_zoom.png" border="0"></a>
         </div>
       </div>
       
@@ -38,4 +43,5 @@
         </div>
       </div>
     </body>
+    <script type="text/javascript" src="../../repeated_platform.js"></script> 
 </html>

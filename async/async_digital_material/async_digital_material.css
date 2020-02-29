@@ -9,14 +9,63 @@
         opacity:0.5;
     }
 
-    .video{
+    #middle_video_frame{
         position:absolute;
         display: none;
-        width:64vw;
-        height:36vw;
+        z-index: 5;
+        background-color: white;
+        width: 70.4vw;
+        height: 39vw;
+        left: 13vw;
+        top: 2vw;
+        border-radius: 1vw;
+    }
+
+    .middle_video_button{
+        position:absolute;
+        display: none;
+        z-index: 6;
+        cursor: pointer;
+        top:37.5vw;
+        width:30vw;
+        height:3vw;
+        line-height:3vw;
+        background-color: #333;
+        border-color: #2e6da4;
+        border-radius: 6px;
+        font-size: 1.8vw;
+        border-width: 1px;
+        cursor: pointer;
+        color:white;
+        text-align: center;
+    }
+    
+    .middle_video_button:hover{
+        background-color: #222;
+        border-color: #122b40;
+    }
+    
+    .middle_video_button:active{
+        background-color: #000;
+        border-color: #122b40;
+    }
+
+    .button_basic{
+        left:18vw;
+    }
+
+    .button_advanced{
+        left:48.4vw;
+    }
+
+    #video{
+        position:absolute;
+        display: none;
+        width: 60.4vw;
+        height: 34vw;
         margin-left: 18vw;
         margin-top: 3vw;
-        z-index: 5;
+        z-index: 7;
     }
 
     .middle_titlepart{
@@ -63,10 +112,8 @@
         position:relative;
         display: inline-block;
         width:22.19vw;
-        margin-left: 1.5vw;
-        margin-right: 0.5vw;
+        margin-left: 9vw;
         vertical-align: top;
-        cursor: pointer;
     }
 
     .option_sign{
@@ -74,6 +121,7 @@
         display: inline-block;
         width:22.19vw;
         vertical-align: top;
+        cursor: pointer;
     }
 
 
@@ -92,16 +140,64 @@
         opacity:0.5;
     }
 
-    .video{
+    #middle_video_frame{
         position:absolute;
         display: none;
-        width: 80vw;
-        height: 45vw;
-        margin-left: 10vw;
-        margin-top: 34vw;
         z-index: 5;
+        background-color: white;
+        width: 95vw;
+        height: 62vw;
+        left: 2vw;
+        top: 22vw;
+        border-radius: 3vw;
+    }
+
+    .middle_video_button{
+        position:absolute;
+        display: none;
+        z-index: 6;
+        cursor: pointer;
+        top:75.5vw;
+        width:42vw;
+        height:7vw;
+        line-height:7vw;
+        background-color: #333;
+        border-color: #2e6da4;
+        border-radius: 6px;
+        font-size: 5vw;
+        border-width: 1px;
+        cursor: pointer;
+        color:white;
+        text-align: center;
     }
     
+    .middle_video_button:hover{
+        background-color: #222;
+        border-color: #122b40;
+    }
+    
+    .middle_video_button:active{
+        background-color: #000;
+        border-color: #122b40;
+    }
+
+    .button_basic{
+        left:7.5vw;
+    }
+
+    .button_advanced{
+        left:50vw;
+    }
+
+    #video{
+        position:absolute;
+        display: none;
+        width: 85vw;
+        height: 47.8vw;
+        margin-left: 7vw;
+        margin-top: 26vw;
+        z-index: 7;
+    }
     .middle_titlepart{
         position:relative;
         display: inline-block;

@@ -29,17 +29,13 @@ var list=[
     
 ];
 
-console.log(list[0]);
 var output='';
 var list_length=list.length/2;
 var number_of_column = 3;
 var number_of_row = 9;
-console.log("list_length="+list_length);
 for (var column = 1; column <= number_of_column; column++) {
-    console.log("column="+column);
     output = output + '<div class="option_column" id="option_column_'+column+'">';
     for (var row = 1; row <= number_of_row; row++){
-        console.log("row="+row);
         if ((column-1)*number_of_row+row <= list_length){
             output += '<a class="column_link column_link_'+column+'" href="'+list[(column-1)*number_of_row*2+(row-1)*2+1]+'" target="_blank"><img class="link_sign" src="../../material/resources/5_1_resources_sign.png">' + list[(column-1)*number_of_row*2+(row-1)*2] + '</a>';
         }

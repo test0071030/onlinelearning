@@ -1,0 +1,50 @@
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <title>國立臺南大學線上學習資源網-非同步教學-快速數位教材製作</title>
+      <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="async_digital_material.css">
+      <link rel="stylesheet" type="text/css" href="../../repeated.css">  
+    </head>
+    <body>
+      <div class="banner">
+        <a id="banner_logo" href="../../index.html"></a>
+        <div id="banner_title">線上教學資源網</div>
+      </div>
+      
+
+      <div id="middle">
+        <div onclick="hide_video()" id="middle_video_background"></div>
+        <div id="middle_video_frame"></div>
+        <div onclick="show_video_1()" class="middle_video_button button_basic video_ppt" id="video_1_button">基礎教學</div>
+        <div onclick="show_video_2()" class="middle_video_button button_advanced video_ppt" id="video_2_button">進階教學</div>
+        <div onclick="show_video_3()" class="middle_video_button button_basic video_evercam" id="video_3_button">基礎教學</div>
+        <div onclick="show_video_4()" class="middle_video_button button_advanced video_evercam" id="video_4_button">進階教學</div>
+        <div onclick="show_video_5()" class="middle_video_button button_basic video_ispring" id="video_5_button">基礎教學</div>
+        <div onclick="show_video_6()" class="middle_video_button button_advanced video_ispring" id="video_6_button">進階教學</div>
+        <video id="video" controls controlsList="nodownload"></video>
+        <div class="middle_titlepart">
+          <a href="../index.html" id="middle_titlepart_link"><img src="../../material/async/3_1_async.png" id="middle_titlepart_photo"></a>
+          <div id="middle_titlepart_text">快速數位教材製作</div>
+        </div>
+        <div id="middle_option">
+          <a onclick="show_video_1()" class="option_link"><img class="option_sign" src="../../material/async/3_3_ppt.png" border="0"></a>
+          <a onclick="show_video_3()" class="option_link"><img class="option_sign" src="../../material/async/3_3_evercam.png" border="0"></a>
+          <a onclick="show_video_5()" class="option_link"><img class="option_sign" src="../../material/async/3_3_ispring.png" border="0"></a>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <div id="footer_logo"></div>
+        <div id="footer_signature">
+            地址：70005台南市中西區樹林街二段33號<br>
+            電話：+886-6-2133111<br>
+            資訊網隱私權政策網站管理<br>
+            © designed by Chun-Ping Wu, Jia-Sin Chen, Pin-Chi Liao, Yi- Hung Su<br>
+            ©本網站所有的內容皆為吳純萍老師上課自製用的數位教材，僅做公益用途，請勿重製或用作商業用
+        </div>
+      </div>
+    </body>
+    <script type="text/javascript" src="async_digital_material.js"></script> 
+</html>

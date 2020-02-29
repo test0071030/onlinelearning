@@ -1,33 +1,35 @@
 <html>
     <head>
       <meta charset="utf-8" />
-      <title>線上教學資源網-同步教學</title>
+      <title>國立臺南大學線上教學資源網-非同步教學</title>
       <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="async.css">
       <link rel="stylesheet" type="text/css" href="../repeated.css"> 
     </head>
     <body>
-      <div class="async_banner">
-        <a id="async_banner_logo" href="../index.html"></a>
-        <div id="async_banner_title">線上教學資源網</div>
+      <div class="banner">
+        <a id="banner_logo" href="../index.html"></a>
+        <div id="banner_title">線上教學資源網</div>
       </div>
       
       
-      <div id="async_middle">
+      <div id="middle">
+        <div onclick="hide_video()" id="middle_video_background"></div>
+        <video id="video" src="../material/sync/sync_preparation.mp4" controls controlsList="nodownload"></video>
         <div id="middle_photo"></div>
         <div id="middle_right">
           <img src="../material/async/3_1_async.png" id="right_title">
-          <div class="right_textpart"><img class="textpart_sign" src="../material/async/3_1_async_sign.png"><div class="textpart_text">流程與準備工作</div></div>
+          <div onclick="show_video()" class="right_textpart" id="async_video"><img class="textpart_sign" src="../material/async/3_1_async_sign.png"><div class="textpart_text">流程與準備工作</div></div>
           <a class="right_textpart" href="async_platform/index.html"><img class="textpart_sign" src="../material/async/3_1_async_sign.png"><div class="textpart_text">使用平台</div></a>
-          <div class="right_textpart"><img class="textpart_sign" src="../material/async/3_1_async_sign.png"><div class="textpart_text">快速數位教材製作</div></div>
+          <a class="right_textpart" href="async_digital_material/index.html"><img class="textpart_sign" src="../material/async/3_1_async_sign.png"><div class="textpart_text">快速數位教材製作</div></a>
           <a class="right_textpart" href="https://docs.google.com/forms/d/e/1FAIpQLSeR9xoffmSdW2aV7f4lQaA5_ILlabJZtySYBeP4_AdYk7DJiw/viewform?usp=sf_link" target="_blank"><img class="textpart_sign" src="../material/async/3_1_async_sign.png"><div class="textpart_text">申請技術協助</div></a>
         </div>
       </div>
       
-      <div class="async_footer">
-        <div id="async_footer_logo"></div>
-        <div id="async_footer_signature">
+      <div class="footer">
+        <div id="footer_logo"></div>
+        <div id="footer_signature">
             地址：70005台南市中西區樹林街二段33號<br>
             電話：+886-6-2133111<br>
             資訊網隱私權政策網站管理<br>
@@ -36,4 +38,5 @@
         </div>
       </div>
     </body>
+    <script type="text/javascript" src="../repeated_preparation.js"></script> 
 </html>
