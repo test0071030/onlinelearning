@@ -38,7 +38,7 @@
         position:relative;
         display: inline-block;
         width:100vw;
-        min-height: 42.19vw;
+        height: 42.19vw;
     }
 
 
@@ -47,7 +47,6 @@
         background-color:#f6f6f6;
         display: inline-block;
         width:100vw;
-        height:7.8125vw;
     }
 
     #footer_logo{
@@ -56,18 +55,21 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         display: inline-block;
+        vertical-align: top;
         width:20vw;
         height:3.97vw;
-        left:5vw;
-        top: 0.3vw;
+        margin-left:5vw;
+        margin-top: 2.5vw;
     }
 
     #footer_signature{
         position:relative;
         display: inline-block;
+        vertical-align: top;
         font-size: 1.1vw;
-        left:7vw;
-        top:1vw;
+        margin-left:4vw;
+        padding-top:0.5vw;
+        padding-bottom:1.5vw;
     }
 
 
@@ -133,6 +135,7 @@
         background-color:#f6f6f6;
         display: inline-block;
         width:100vw;
+        padding-bottom: 5vw;
     }
 
     #footer_logo{
