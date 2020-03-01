@@ -73,6 +73,8 @@ function hide_video(){
 
     var y = document.getElementById("video");
     y.style.display = "none";
+    y.pause();
+    y.currentTime=0;
 
     var z = document.getElementById("middle_video_frame");
     z.style.display = "none";

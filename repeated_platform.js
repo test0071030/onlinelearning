@@ -32,5 +32,7 @@ function hide_video(){
     var y = document.getElementsByClassName("video");
     for(var i=0; i<y.length; i++) {
         y[i].style.display = "none";
+        y[i].pause();
+        y[i].currentTime=0;
     }
 };

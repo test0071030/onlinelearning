@@ -10,4 +10,6 @@ function hide_video(){
     x.style.display = "none";
     var y = document.getElementById("video");
     y.style.display = "none";
+    y.pause();
+    y.currentTime=0;
 };
