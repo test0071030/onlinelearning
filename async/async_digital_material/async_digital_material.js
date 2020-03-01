@@ -32,7 +32,7 @@ function show_video_3(){
     var a = document.getElementById("middle_video_frame");
     a.style.display = "block";
 
-    var b = document.getElementsByClassName("video_ppt");
+    var b = document.getElementsByClassName("video_evercam");
     for(var i=0; i<b.length; i++) {
         b[i].style.display = "block";
     }
@@ -55,7 +55,7 @@ function show_video_5(){
     var a = document.getElementById("middle_video_frame");
     a.style.display = "block";
 
-    var b = document.getElementsByClassName("video_ppt");
+    var b = document.getElementsByClassName("video_ispring");
     for(var i=0; i<b.length; i++) {
         b[i].style.display = "block";
     }
