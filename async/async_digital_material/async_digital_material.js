@@ -43,7 +43,7 @@ function show_video_4(){
     y.src="../../material/async/digital_material/async_digital_material_evercam_advanced.mp4";
     y.style.display = "block";
 };
-
+/*
 function show_video_5(){
     var x = document.getElementById("middle_video_background");
     x.style.display = "block";
@@ -66,6 +66,7 @@ function show_video_6(){
     y.src="../../material/async/digital_material/async_digital_material_ispring_advanced.mp4";
     y.style.display = "block";
 };
+*/
 
 function hide_video(){
     var x = document.getElementById("middle_video_background");
